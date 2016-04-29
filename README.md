@@ -1,4 +1,4 @@
-# Building "DC/OS Build and Release tools" with Docker-in-Docker (dind)
+# Build "DC/OS Build and Release tools" with Docker-in-Docker (dind)
 
 ## Based on
 
