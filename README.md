@@ -14,10 +14,10 @@ $ git clone https://github.com/jstabenow/dcos-builder-dind
 # build docker image
 $ docker build -t dcos-builder-dind .
 
-# building dc/os
+# build dc/os tools
 $ docker run -it --privileged -v $PWD/dcos-artifacts:/root/dcos-artifacts dcos-builder-dind
 
-# building dc/os wirh custom config and location 
+# build dc/os tools with custom config and config location 
 $ docker run -it \
     -v $PWD/dcos-artifacts:/root/dcos-artifacts \
     -v $PWD/myconfig:/myconfig \
